@@ -1,4 +1,14 @@
+Description:
+This is implementation of graph cut algorithm to seperate front and background of image. 
+src/main.cpp where I am reading image and return output image
+src/createMinCut.cpp where I have implemented graph cut algorithm.
+GraphCutAlgorithm is done by calculating probability to differentiate between forward and background pixels and then make a cut
+on it.
 
+For Full reference Read P1.pdf
+
+
+How to Run the Code
 Prerequisites:
 
 cmake, opencv
